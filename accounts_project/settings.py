@@ -27,6 +27,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+#! User
+
+AUTH_USER_MODEL = "accounts.User"
+
+#! then in terminal
+# ? python manage.py makemigrations
+# ? python manage.py migrate
 
 # Application definition
 
